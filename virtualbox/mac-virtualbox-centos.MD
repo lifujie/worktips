@@ -14,7 +14,7 @@
 # 挂载共享盘
 - mount -t vboxsf go /root/go
 # 问题
-- /sbin/mount.vboxsf: mounting failed with the error: 
+- /sbin/mount.vboxsf: mounting failed with the error: No such Device
   - 解决方案
     - yum update
     - yum install kernel
