@@ -7,7 +7,7 @@
 - 挂载镜像
   - mkdir /home/cdrom
   - mount -t auto /dev/cdrom /home/cdrom
-  这样就可以在/home/website目录下看到VBoxGuestAdditions_5.2.12.iso 文件的内容了
+  > 这样就可以在/home/cdrom目录下看到VBoxGuestAdditions_5.2.12.iso 文件的内容了
 - 执行
   - sh ./VBoxLinuxAdditions.run
   - reboot
