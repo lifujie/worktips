@@ -17,7 +17,7 @@ maxAlloc: 281474976710656 512G
 
 heapArenaBytes: 67108864 64M 
 logHeapArenaBytes: 26
-heapArenaBitmapBytes: 2097152 4KB 
+heapArenaBitmapBytes: 2097152 2MB 
 pagesPerArena(heapArenaBytes / pageSize): 8192
 arenaL1Bits: 0
 arenaL2Bits: 22
@@ -28,12 +28,15 @@ arenaBaseOffset: 140737488355328 128G
 _MaxGcproc: 32
 minLegalPointer: 4096
 minPhysPageSize: 4096
+
 bitPointer: 1
-bitScanAll: 240
-bitScan: 16
+bitPointerAll: 15 低四位全1
+bitScan: 16      10000
+bitScanAll: 240 高四位全1
+
 heapBitsShift: 1
 wordsPerBitmapByte: 4
-bitPointerAll: 15
+
 rootBlockBytes: 262144
 rootBlockSpans: 8192
 maxObletBytes: 131072

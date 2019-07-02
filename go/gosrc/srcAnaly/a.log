@@ -1,0 +1,38 @@
+maxTinySize(_TinySize): 16
+tinySizeClass(_TinySizeClass): 2
+maxSmallSize(_MaxSmallSize): 32768
+pageShift(_PageShift): 13
+pageSize(_PageSize): 8192
+pageMask(_PageMask): 8191
+maxObjsPerSpan(pageSize / 8): 1024
+concurrentSweep(_ConcurrentSweep): true
+_64bit: 1
+_TinySize: 16
+_TinySizeClass: 2
+_FixAllocChunk: 16384
+_StackCacheSize: 32768
+_NumStackOrders: 4
+heapAddrBits: 48
+maxAlloc: 281474976710656
+heapArenaBytes: 67108864
+logHeapArenaBytes: 26
+heapArenaBitmapBytes: 2097152
+pagesPerArena(heapArenaBytes / pageSize): 8192
+arenaL1Bits: 0
+arenaL2Bits: 22
+arenaL1Shift(arenaL2Bits): 22
+arenaBits(arenaL1Bits + arenaL2Bits): 22
+arenaBaseOffset: 140737488355328
+_MaxGcproc: 32
+minLegalPointer: 4096
+minPhysPageSize: 4096
+bitPointer: 1
+bitScanAll: 240
+bitScan: 16
+heapBitsShift: 1
+wordsPerBitmapByte: 4
+bitPointerAll: 15
+rootBlockBytes: 262144
+rootBlockSpans: 8192
+maxObletBytes: 131072
+drainCheckThreshold: 100000
